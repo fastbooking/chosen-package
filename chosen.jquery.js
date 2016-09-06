@@ -23,7 +23,8 @@
       this.parsed.push({
         array_index: group_position,
         group: true,
-        label: this.escapeExpression(group.label),
+        // label: this.escapeExpression(group.label),
+        label: group.label,
         title: group.title ? group.title : void 0,
         children: 0,
         disabled: group.disabled,
